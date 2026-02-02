@@ -131,6 +131,57 @@
                     <button id="draw-btn" class="btn btn-primary draw-btn">번호 추첨하기</button>
                 </div>
             </div>
+        <section id="lotto" class="lotto">
+            <div class="container">
+                <h2 class="section-title">로또 행운 번호 추첨</h2>
+                <div class="lotto-container">
+                    <p class="lotto-desc">어르신들의 즐거운 소일거리, 오늘 나의 행운 번호를 확인해보세요!</p>
+                    <div id="lotto-numbers" class="lotto-numbers">
+                        <div class="ball placeholder">?</div>
+                        <div class="ball placeholder">?</div>
+                        <div class="ball placeholder">?</div>
+                        <div class="ball placeholder">?</div>
+                        <div class="ball placeholder">?</div>
+                        <div class="ball placeholder">?</div>
+                    </div>
+                    <button id="draw-btn" class="btn btn-primary draw-btn">번호 추첨하기</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="affiliate-inquiry" class="affiliate-inquiry">
+            <div class="container">
+                <h2 class="section-title">제휴 문의</h2>
+                <p class="section-subtitle">다양한 협력 기회를 통해 함께 성장할 파트너를 찾습니다.</p>
+                <form action="https://formspree.io/f/mnjzgowg" method="POST" class="affiliate-form">
+                    <div class="form-group">
+                        <label for="name">이름:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">이메일:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">회사/단체명 (선택 사항):</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="inquiry_type">문의 종류 (선택 사항):</label>
+                        <select id="inquiry_type" name="inquiry_type">
+                            <option value="">선택하세요</option>
+                            <option value="partnership">파트너십 제안</option>
+                            <option value="collaboration">협력 제안</option>
+                            <option value="other">기타</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">문의 내용:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">문의하기</button>
+                </form>
+            </div>
         </section>
     </main>
 

@@ -394,3 +394,75 @@ footer p {
         margin: 0 auto;
     }
 }
+/* Affiliate Inquiry Section */
+.affiliate-inquiry {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.affiliate-inquiry .section-subtitle {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.affiliate-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.affiliate-form .form-group {
+    margin-bottom: 20px;
+}
+
+.affiliate-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.affiliate-form input[type="text"],
+.affiliate-form input[type="email"],
+.affiliate-form textarea,
+.affiliate-form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box; /* Ensures padding doesn't increase total width */
+}
+
+.affiliate-form textarea {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 120px;
+}
+
+.affiliate-form input:focus,
+.affiliate-form textarea:focus,
+.affiliate-form select:focus {
+    border-color: #007bff; /* Highlight on focus */
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.affiliate-form .btn-primary {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.affiliate-form .btn-primary:hover {
+    background-color: #0056b3;
+}
