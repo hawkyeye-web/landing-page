@@ -47,6 +47,7 @@ header .container {
 
 .logo img {
     height: 50px;
+    background-color: red; /* Temporary: for debugging logo visibility */
 }
 
 nav ul {
